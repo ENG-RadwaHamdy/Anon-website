@@ -48,6 +48,9 @@ export default defineNuxtConfig({
     vueI18n: "./i18n.config.ts",
     strategy: "prefix_and_default",
     detectBrowserLanguage: false,
+    bundle: {
+      optimizeTranslationDirective: false
+    }
   },
 
   veeValidate: {
